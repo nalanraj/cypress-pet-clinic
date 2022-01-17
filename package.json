@@ -1,0 +1,23 @@
+{
+  "name": "e2e_petclinic_cypress",
+  "version": "1.0.0",
+  "description": "E2E tests for pet clinic project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "e2e",
+    "pet-clinic"
+  ],
+  "author": "ndoure",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "prettier": "^2.5.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false
+  }
+}
