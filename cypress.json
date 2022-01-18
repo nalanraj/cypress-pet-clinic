@@ -1,4 +1,11 @@
 {
+	"reporter": "cypress-mochawesome-reporter",
+	"reporterOptions": {
+		"reportDir": "cypress/reports",
+		"charts": true,
+		"saveJson": true,
+		"reportPageTitle": "E2E Test Report"
+	},
 	"testFiles": "**/*.feature",
 	"baseUrl": "http://localhost:8080"
 }
