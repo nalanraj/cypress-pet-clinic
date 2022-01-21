@@ -1,6 +1,7 @@
 class FindOwnersPage {
 	constructor() {
 		this.url = '/owners/find'
+		/** Selectors */
 		this.addOwnerBtn = 'a.btn'
 		this.ownerInformationClass = '.container-fluid'
 		this.ownerInformationTxt = 'Owner Information'

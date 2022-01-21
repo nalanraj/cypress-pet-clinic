@@ -1,6 +1,7 @@
 class AddOwnerPage {
 	constructor() {
 		this.url = '/owners/new'
+		/** Selectors */
 		this.firstName = '#firstName'
 		this.lastName = '#lastName'
 		this.address = '#address'

@@ -4,11 +4,12 @@ This project contains e2e tests for PetClinic  built in cypress.
 
 ## How to install and execute tests
 
-Pre-requisites: 
+**Pre-requisites:** 
+
 - Install node js if not done
 - And of-course the PetClinic app should be running in your local
 
-Build the project with npm
+## Build the project with npm
 
     npm install
 
@@ -18,11 +19,14 @@ Build the project with npm
 
 ## Run the Test in headed mode
 
-After executing the above command Cypress test runner will open.
+    npx cypress open
+
+After executing the above command, Cypress test runner will open.
 Click on "addFindOwner.feature" file
 Then you could visually see the test running in a browser
 
 ## Run the Test in command line in headless mode
+
     npx cypress run
 
 ## What did this E2E test do
@@ -35,3 +39,13 @@ Then you could visually see the test running in a browser
 After each execution the test report will be generated 
 - HTML report in cypress/reports/
 - Video of the test run in cypress/videos
+
+## File structure
+- cypress/integration/addFindOwner.feature
+        We define our test scenario in this feature file
+- cypress/support/step_definitions/addFindOwner.js
+        Step definition for each step we define in the scenario
+- cypress/support/pageObjects/AddOwnerPage.js 
+        Page objects for Add Owner
+- cypress/support/pageObjects/FindOwnersPage.js
+        Page objects for Find Owner
