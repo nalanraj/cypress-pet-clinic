@@ -1,13 +1,13 @@
 # PetClinic E2E tests
 
-This project contains e2e tests for PetClinic  built in cypress.
+This project contains e2e tests built in cypress for [PetClinic](https://github.com/spring-projects/spring-petclinic) app.
 
 ## How to install and execute tests
 
 **Pre-requisites:** 
 
 - Install node js if not done
-- And of-course the PetClinic app should be running in your local
+- And of-course the [PetClinic](https://github.com/spring-projects/spring-petclinic) app should be running in your local
 
 ## Build the project with npm
 
