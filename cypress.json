@@ -4,7 +4,8 @@
 		"reportDir": "cypress/reports",
 		"charts": true,
 		"saveJson": true,
-		"reportPageTitle": "E2E Test Report"
+		"reportPageTitle": "E2E Test Report",
+		"html": true
 	},
 	"testFiles": "**/*.feature",
 	"baseUrl": "http://localhost:8080"
